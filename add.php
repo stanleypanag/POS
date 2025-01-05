@@ -42,7 +42,7 @@
 									<div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><i class="fas fa-map-marker-alt"></i></span></div>
 									<textarea type="text" class="form-control form-control-sm" name="address" placeholder="Enter Address" required></textarea>
 								</div>
-								<label>Choose Picture:<i class="fas fa-file-upload"></i></label><input type="file" class="form-control-sm" name="image" required />
+								<label>Choose Picture:<i class="fas fa-file-upload"></i></label><input type="file" class="form-control-sm" name="image" />
 							</small>
 
 						</div>
