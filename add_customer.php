@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 		$query 	= "INSERT INTO logs (username, purpose, logs_time) 
 			           VALUES ('$user', 'Customer $fname Added', CURRENT_TIMESTAMP)";
 		$insert = mysqli_query($db, $query);
-		header('location: main.php?username=' . $user . '&added');
+		header('location: employee_page.php?username=' . $user . '&added');
 	} else {
 		$msg = "Something went wrong!";
 	}
